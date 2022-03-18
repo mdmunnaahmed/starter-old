@@ -29,6 +29,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 /* Custom Animations */
 
+@keyframes fadeInOut {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
 @keyframes play-button {
   0% {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
